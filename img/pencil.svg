@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   enable-background="new 0 0 512 512"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   sodipodi:docname="pencil.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata5435">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5433" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview5431"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-100.88136"
+     inkscape:cy="256"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5428" />
+  <g
+     id="g5428">
+    <path
+       d="m128.285 260.925h319.073v75h-319.073z"
+       transform="matrix(.707 -.707 .707 .707 -126.717 290.929)"
+       id="path5418"
+       style="fill:#ff4b59;fill-opacity:1" />
+    <path
+       d="m29.021 422.521-29.021 89.479 89.481-29.02z"
+       id="path5420"
+       style="fill:#ff4b59;fill-opacity:1" />
+    <path
+       d="m54.039 186.679h319.073v75h-319.073z"
+       transform="matrix(.707 -.707 .707 .707 -95.964 216.682)"
+       id="path5422"
+       style="fill:#ff4b59;fill-opacity:1" />
+    <path
+       d="m371.541 5.46h90v180h-90z"
+       transform="matrix(.707 -.707 .707 .707 54.502 322.498)"
+       id="path5424"
+       style="fill:#ff4b59;fill-opacity:1" />
+    <path
+       d="m57.148 335.796-17.737 54.689 82.106 82.105 54.689-17.737z"
+       id="path5426"
+       style="fill:#ff4b59;fill-opacity:1" />
+  </g>
+</svg>

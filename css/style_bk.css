@@ -1,0 +1,297 @@
+@font-face {
+	font-family: 'Open Sans';
+	src:
+	url('../fonts/OpenSans-ExtraBold.ttf') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src:
+	url('../fonts/OpenSans-Bold.ttf') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src:
+	url('../fonts/OpenSans-Regular.ttf') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap; 	
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Open Sans'/*, Helvetica, Arial*/;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*Шапка страницы с навигатором*/
+header {
+	padding-top: 26px;
+	background-color: #f6f2f2;
+}
+
+nav {
+	display: flex;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1249px;
+	background-color: #282828;
+}
+
+main {
+	width: 100vw;
+	margin: 0;
+}
+
+.header-wrapper {
+	background-color: #e0e0e0;
+}
+
+.header-menu {
+	margin: 0;
+	 padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	background-color: #282828;
+}
+
+.header-menu li {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	min-height: 89px;
+	font-size: 14px;
+	font-color: #e0e0e0;
+	margin: 0;
+
+}
+
+.header-menu li:hover {
+	background-color: #ff3f40;
+}
+
+.header-menu a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #e0e0e0;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 35px;
+}
+
+.contact_us {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 89px;
+	background-color: #f6f2f2;
+	padding-bottom: 111px;
+/*	width: 80vw;*/
+}
+
+.box {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	/*width: 90%;*/
+	/*max-width: 1249px;*/
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.column {
+	display: flex;
+/*	flex-wrap: nowrap;*/
+	flex-direction: column;
+	align-items: flex-start;
+/*	margin-bottom: 111px;*/
+	max-width: 40.5vw;
+	flex: 1;
+}
+
+.column > h1 {
+	font-size: 60px;
+	line-height: 72px;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	margin: 0; 
+	width: 100%;
+	max-width: 544px;
+}
+
+.column p {
+	font-size: 16px;
+	line-height: 28px;
+	/*padding-right: 70px;*/
+}
+
+.column > img {
+/*	max-width: 550px;*/
+	width: 100%;
+	height: auto;
+	margin: 15px 0 0 auto;
+	max-width: 551px;
+/*	min-width: 300px*/
+
+	/*margin-left: 75px;
+	margin-top: 12px;*/
+
+}
+
+/*.column a{
+	display: flex;
+	justify-content: center;
+}*/
+
+.button {
+	display: flex;
+	justify-content: center;
+	background-color: #ff3f40;
+	max-width: 227px;
+	line-height: 55px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	padding: 0 64px;
+/*	margin-left: -2px;*/
+	margin-top: 45px;
+}
+
+/*.proposal {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+.wrapper {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*.proposal {
+	display: flex;
+	flex-wrap: nowrap;
+}*/
+
+
+.about_prop {
+	width: 40%;
+}
+
+.about_prop h1 {
+	font-size: 42px;
+}
+
+.option_prop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0;
+}
+
+.column_prop {
+	width: 50%;
+}
+
+
+.column_prop h1 {
+	font-size: 24px;
+
+}
+
+/*.box {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto; 
+}*/
+
+/*.options_prop {
+	display: flex;
+	flex-wrap: wrap;
+	width: 
+}
+
+.column_prop {
+	max-width: 301px;
+}*/
+
+footer {
+	display: flex;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #313030;
+	padding-right: 10.5%;
+}
+
+footer > p {
+	margin-right: auto;
+	margin-left: 10%;
+	font-size: 16px;
+	color: #B8B8B8;
+}
+
+footer > a {
+	margin: 18px;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .box {
+    	flex-direction: column;
+    	flex-wrap: wrap;
+
+    }
+
+    .column {
+	max-width: 100%;
+    }
+
+    .column > h1 {
+	font-size: 30px;
+	line-height: 35px;
+	}
+
+	.column > img {
+		margin-left: 0;
+/*		max-width: 100%;*/
+	}
+
+	.button {
+		margin: 0;
+		line-height: 26px;
+		padding: 0 4%;
+	}
+}
+
+@media screen and (max-width:403px) {
+	nav {
+		width: 100%;
+	}
+}

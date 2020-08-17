@@ -524,6 +524,12 @@ footer > a {
 	.column_prop p {
 		padding: 8px;
 	}
+	
+	.photo_feature img {
+	width: 49%;
+	height: auto;
+	margin-bottom: 2%;
+}
 
 	.team_links {
 		width: 100%;
@@ -551,6 +557,12 @@ footer > a {
 		width: 100%;
 	}
 
+	.photo_feature img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 2;
+	}
+	
 	.our_team {
 		width: 80%;
 	}

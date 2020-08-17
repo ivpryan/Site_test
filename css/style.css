@@ -478,11 +478,15 @@ footer > a {
     .column > h1 {
 	font-size: 30px;
 	line-height: 35px;
-
 	}
 
 	.column > img {
 		margin-left: 0;
+	}
+
+	.column_prop h1 {
+	font-size: 28px;
+	line-height: 35px;
 	}
 
 	.button {

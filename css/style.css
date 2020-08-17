@@ -348,6 +348,8 @@ nav {
 	border-radius: 5px;
 	margin-bottom: 141px;
 	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 600;
 }
 
 /*Связаться с нами, задать нам вопрос*/
@@ -414,6 +416,7 @@ nav {
 	margin-top: 41px;
 	width: 100%;
 	font-size: 18px;
+	font-weight: 600;
 	line-height: 75px;
 	text-transform: uppercase;
 	color: white;

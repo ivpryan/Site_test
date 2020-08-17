@@ -552,7 +552,23 @@ footer > a {
 	}
 
 	.our_team {
-	width: 80%;
+		width: 80%;
+	}
+	
+	.avatar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.avatar a {
+		width: 45%;
+		margin: 2px;
+	}
+	.avatar img {
+		width: 100%;
+		height: auto;
 	}
 
 	.column_prop {

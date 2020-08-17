@@ -33,6 +33,7 @@ body {
 	font-weight: 400;
 }
 
+
 /*Шапка страницы с навигатором*/
 header {
 	padding-top: 26px;
@@ -46,7 +47,6 @@ nav {
 	width: 79%;
 	background-color: #282828;
 }
-
 
 .header-wrapper {
 	background-color: #e0e0e0;
@@ -145,6 +145,7 @@ nav {
 	width: 40%;
 }
 
+
 .about_prop a {
 	background-color: #ffff;
 	text-decoration: none;
@@ -198,6 +199,11 @@ nav {
 	white-space: nowrap;
 	font-size: 22px;
 	margin: 19px;
+	color: #000000;
+}
+
+.feature a:hover {
+	color: #ff3f40;
 }
 
 .scroll_photo {
@@ -306,6 +312,7 @@ nav {
 	text-decoration: none;
 	font-style: italic;
 	font-size: 18px;
+	color: #000000;
 }
 
 .team_links img {
@@ -562,7 +569,7 @@ footer > a {
 	height: auto;
 	margin-bottom: 2;
 	}
-	
+
 	.our_team {
 		width: 80%;
 	}
